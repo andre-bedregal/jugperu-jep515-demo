@@ -14,7 +14,7 @@ Java User Group Peru
 
 ---
 
-# The Problem: JVM Warmup
+## The Problem: JVM Warmup
 
 - Java apps take time to **warm up**
 - Two main costs:
@@ -24,7 +24,7 @@ Java User Group Peru
 
 ---
 
-# Solution Part 1: JEP 483 (Java 24)
+## Solution Part 1: JEP 483 (Java 24)
 
 ### Ahead-of-Time Class Loading & Linking
 
@@ -34,7 +34,7 @@ Java User Group Peru
 
 ---
 
-# Solution Part 2: JEP 515 (Java 25)
+## Solution Part 2: JEP 515 (Java 25)
 
 ### Ahead-of-Time Method Profiling
 
@@ -45,7 +45,7 @@ Java User Group Peru
 
 ---
 
-# Demo Workflow
+## Demo Workflow
 
 1. Training run + Create cache
     ```sh
@@ -61,7 +61,7 @@ Java User Group Peru
 
 ---
 
-# Final notes
+## Final notes
 
 - **JEP 483**: Great for raw startup, but minimal on large apps like Spring Boot.
 - **JEP 515**: The real payoff. Reduces time to peak performance.
